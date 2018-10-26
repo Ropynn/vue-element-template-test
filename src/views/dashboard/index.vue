@@ -7,9 +7,36 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import { getOrderList, testList } from '@/api/test'
 
 export default {
   name: 'dashboard',
+  data() {
+    return {
+      listQuery: {
+        page: 1,
+        limit: 10
+      }
+    }
+  },
+  created() {
+    this.test()
+    this.test1()
+  },
+  methods: {
+    test() {
+      console.log('1')
+      getOrderList(this.listQuery).then(res => {
+        console.log(res)
+      })
+    },
+    test1() {
+      console.log(2)
+      testList().then(res => {
+        console.log(res)
+      })
+    }
+  },
   computed: {
     ...mapGetters([
       'name',
