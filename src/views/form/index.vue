@@ -48,7 +48,11 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 export default {
+  computed: {
+    ...mapGetters(['aa'])
+  },
   data() {
     return {
       form: {
@@ -62,6 +66,9 @@ export default {
         desc: ''
       }
     }
+  },
+  created() {
+    console.log(this.aa, 'num')
   },
   methods: {
     onSubmit() {

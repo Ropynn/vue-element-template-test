@@ -36,7 +36,6 @@ export const constantRouterMap = [
       component: () => import('@/views/dashboard/index')
     }]
   },
-
   {
     path: '/example',
     component: Layout,
@@ -126,6 +125,20 @@ export const constantRouterMap = [
         path: 'menu2',
         component: () => import('@/views/nested/menu2/index'),
         meta: { title: 'menu2' }
+      }
+    ]
+  },
+  {
+    path: '/vuexData',
+    component: Layout,
+    name: 'vuexData',
+    redirect: '/vuexData/data1',
+    children: [
+      {
+        path: 'data1',
+        name: 'data1',
+        component: () => import('@/views/vuexData'),
+        meta: { title: 'data1', icon: 'table' }
       }
     ]
   },

@@ -10,5 +10,7 @@ import Mock from 'mockjs'
 import './orderManage'
 
 import transactionAPI from './test'
+import testNumAPI from './number'
 
 Mock.mock(/\/transaction\/list/, 'get', transactionAPI.getList)
+Mock.mock(/\/list\/getList/, 'get', testNumAPI.listNum)

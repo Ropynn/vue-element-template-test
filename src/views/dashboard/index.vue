@@ -22,25 +22,32 @@ export default {
   created() {
     this.test()
     this.test1()
+    this.test2()
   },
   methods: {
     test() {
-      console.log('1')
       getOrderList(this.listQuery).then(res => {
-        console.log(res)
+        // console.log(res)
       })
     },
     test1() {
-      console.log(2)
+      // console.log(2)
       testList().then(res => {
-        console.log(res)
+        // console.log(res)
+      })
+    },
+    test2() {
+      this.$store.dispatch('getNum').then(res => {
+        console.log('111')
+        // console.log(this.number, 'aa')
       })
     }
   },
   computed: {
     ...mapGetters([
       'name',
-      'roles'
+      'roles',
+      'number'
     ])
   }
 }
