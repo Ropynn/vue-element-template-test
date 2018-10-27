@@ -11,6 +11,14 @@ import './orderManage'
 
 import transactionAPI from './test'
 import testNumAPI from './number'
+import tableAPI from './user'
 
 Mock.mock(/\/transaction\/list/, 'get', transactionAPI.getList)
 Mock.mock(/\/list\/getList/, 'get', testNumAPI.listNum)
+
+// 用户相关
+Mock.mock(/\/user\/listpage/, 'get', tableAPI.getUserList)
+Mock.mock(/\/user\/remove/, 'get', tableAPI.deleteUser)
+Mock.mock(/\/user\/batchremove/, 'get', tableAPI.batchremove)
+Mock.mock(/\/user\/add/, 'get', tableAPI.createUser)
+Mock.mock(/\/user\/edit/, 'get', tableAPI.updateUser)

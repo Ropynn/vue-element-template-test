@@ -2,9 +2,10 @@ import Mock from 'mockjs'
 import { parseQueryString } from '../utils'
 
 // const Random = Mock.Random
+const count = 100
 
 const data = Mock.mock({
-  'data|20': [{
+  'data|100': [{
     'id|+1': 1,
     'ord_id': /[a-z]{2}\d{9}/,
     'hotel_name': '@city' + '@area' + '大酒店',
@@ -14,12 +15,12 @@ const data = Mock.mock({
     'status|0-3': 1,
     'createdAt': '@date("yyyy-MM-dd HH:mm:ss")'
   }],
-  'count': 20,
+  'count': count,
   'code': 20000
 })
 
 const tongjiData = Mock.mock({
-  'data|16': [{
+  'data|100': [{
     'id|+1': 1,
     'total_money|100-150': 120,
     'pay_count|2-10': 3,
@@ -27,7 +28,7 @@ const tongjiData = Mock.mock({
     'tuikuan_count|2-10': 3,
     'createdAt': '@date("yyyy-MM-dd HH:mm:ss")'
   }],
-  'count': 20,
+  'count': count,
   'code': 20000,
   'pay_total_money|800-1000': 800,
   'pay_count|50-100': 50,
@@ -39,7 +40,7 @@ const tongjiData = Mock.mock({
 Mock.mock(/\/platform\/hotel\/get_order_list/, 'get', function(options) {
   const page = Number(parseQueryString(options.url).page)
   const limit = Number(parseQueryString(options.url).limit)
-  const response = { 'data': [...data.data.slice((page - 1) * limit, page * limit)], 'count': 20, 'code': 20000 }
+  const response = { 'data': [...data.data.slice((page - 1) * limit, page * limit)], 'count': count, 'code': 20000 }
   return response
 })
 
@@ -49,7 +50,7 @@ Mock.mock(/\/platform\/hotel\/get_orderManage_list/, 'get', function(options) {
   const limit = Number(parseQueryString(options.url).limit)
   const response = {
     'data': [...tongjiData.data.slice((page - 1) * limit, page * limit)],
-    'count': 20,
+    'count': count,
     'code': 20000,
     'pay_total_money': tongjiData.pay_total_money,
     'pay_count': tongjiData.pay_count,

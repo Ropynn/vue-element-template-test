@@ -129,16 +129,23 @@ export const constantRouterMap = [
     ]
   },
   {
-    path: '/vuexData',
+    path: '/my-vuexData',
     component: Layout,
     name: 'vuexData',
-    redirect: '/vuexData/data1',
+    redirect: '/vuexData',
+    meta: { title: 'my-vuexData', icon: 'example' },
     children: [
       {
-        path: 'data1',
+        path: '/my-vuexData/vuexData',
         name: 'data1',
         component: () => import('@/views/vuexData'),
         meta: { title: 'data1', icon: 'table' }
+      },
+      {
+        path: '/my-vuexData/user',
+        name: 'user',
+        component: () => import('@/views/user'),
+        meta: { title: 'user', icon: 'form' }
       }
     ]
   },
