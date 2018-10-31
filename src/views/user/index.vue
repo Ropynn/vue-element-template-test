@@ -81,7 +81,7 @@ import { getUserList, removeUserList, batchremoveUserList, addUserList, editUser
 import cityInfo from '@/plugins/city-data'
 import { parseAddr } from '@/config/parseAddr'
 export default {
-  data () {
+  data() {
     return {
       cityInfo,
       listQuery: {
@@ -126,13 +126,13 @@ export default {
       }
     }
   },
-  created () {
+  created() {
     this.getUserList(this.listQuery)
   },
 
   methods: {
     // 编辑
-    handleEdit (row) {
+    handleEdit(row) {
       this.isEdit = true
       this.dialogFormVisible = true
       this.form.id = row.id
@@ -143,7 +143,7 @@ export default {
       this.form.name = row.name
     },
     // 删除
-    handleDelete (row) {
+    handleDelete(row) {
       removeUserList({ id: row.id }).then(res => {
         console.log(res)
         this.$message({
@@ -154,17 +154,17 @@ export default {
       })
     },
     // 改变一页请求多少条
-    handleSizeChange (val) {
+    handleSizeChange(val) {
       this.listQuery.limit = val
       this.getUserList(this.listQuery)
     },
     // 改变当前页
-    handleCurrentChange (val) {
+    handleCurrentChange(val) {
       this.listQuery.page = val
       this.getUserList(this.listQuery)
     },
     // 获取用户列表
-    getUserList (listQuery) {
+    getUserList(listQuery) {
       getUserList(listQuery).then(res => {
         this.uesrList = res.data
         console.log(this.uesrList)
@@ -172,19 +172,19 @@ export default {
       })
     },
     // 删除用户
-    removeUserList () {
+    removeUserList() {
       removeUserList().then(res => {
         console.log(res)
       })
     },
     // 批量删除
-    batchremoveUserList () {
+    batchremoveUserList() {
       batchremoveUserList().then(res => {
         console.log(res)
       })
     },
     // 添加用户
-    handleAddUser () {
+    handleAddUser() {
       this.form.id = ''
       this.form.addr = ''
       this.form.sex = ''
@@ -195,7 +195,7 @@ export default {
       this.dialogFormVisible = true
     },
     // 格式化
-    formatSex (row) {
+    formatSex(row) {
       if (row.sex === 0) {
         return '女'
       } else {
@@ -203,7 +203,7 @@ export default {
       }
     },
     // 搜索
-    handleSearch () {
+    handleSearch() {
       if (this.searchName) {
         getUserList({ name: this.searchName }).then(res => {
           this.uesrList = res.data
@@ -214,7 +214,7 @@ export default {
       }
     },
     // 提交
-    submitForm (form) {
+    submitForm(form) {
       this.$refs[form].validate(valid => {
         if (valid) {
           if (!this.isEdit) {
@@ -244,11 +244,11 @@ export default {
       })
     },
     // 重置
-    resetForm (formName) {
+    resetForm(formName) {
       this.$refs[formName].resetFields()
     },
     // 弹窗关闭
-    handleClose () {
+    handleClose() {
       if (!this.isEdit) {
         this.form.id = ''
         this.form.addr = ''
