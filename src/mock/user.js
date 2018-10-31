@@ -52,11 +52,18 @@ export default {
   },
   deleteUser: config => {
     const { id } = param2Obj(config.url)
-    List = List.filter(u => u.id !== id)
-    return {
-      code: 20000,
-      data: {
-        message: '删除成功'
+    if (!id) {
+      return {
+        code: -999,
+        message: '参数不正确'
+      }
+    } else {
+      List = List.filter(u => u.id !== id)
+      return {
+        code: 20000,
+        data: {
+          message: '删除成功'
+        }
       }
     }
   },
