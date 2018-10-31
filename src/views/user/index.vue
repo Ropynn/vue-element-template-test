@@ -27,7 +27,6 @@
             <el-button size="mini" type="danger" @click="handleDelete(scope.row)">删除</el-button>
           </template>
         </el-table-column>
-        this.get
       </el-table>
       <div class='page'>
         <el-pagination @size-change="handleSizeChange" @current-change="handleCurrentChange" :current-page="listQuery.page" :page-sizes="[10, 15, 20]" layout="total, sizes, prev, pager, next, jumper" background :total="count">
