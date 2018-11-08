@@ -1,0 +1,2067 @@
+{
+  "ret": true,
+  "data": {
+    "hotCities": [
+      {
+        "value": "110100",
+        "parent": "110000",
+        "spell": "beijing",
+        "name": "北京市"
+      },
+      {
+        "value": "310100",
+        "parent": "310000",
+        "spell": "shanghai",
+        "name": "上海市"
+      },
+      {
+        "value": "440100",
+        "parent": "440000",
+        "spell": "guangzhou",
+        "name": "广州市"
+      },
+      {
+        "value": "440300",
+        "parent": "440000",
+        "spell": "shenzhen",
+        "name": "深圳市"
+      }
+    ],
+    "cities": {
+      "A": [
+        {
+          "value": "513200",
+          "parent": "510000",
+          "spell": "aba",
+          "name": "阿坝"
+        },
+        {
+          "value": "652900",
+          "parent": "650000",
+          "spell": "akesu",
+          "name": "阿克苏"
+        },
+        {
+          "value": "152900",
+          "parent": "150000",
+          "spell": "alashanmeng",
+          "name": "阿拉善盟"
+        },
+        {
+          "value": "654300",
+          "parent": "650000",
+          "spell": "aletai",
+          "name": "阿勒泰"
+        },
+        {
+          "value": "542500",
+          "parent": "540000",
+          "spell": "ali",
+          "name": "阿里"
+        },
+        {
+          "value": "610900",
+          "parent": "610000",
+          "spell": "ankang",
+          "name": "安康市"
+        },
+        {
+          "value": "340800",
+          "parent": "340000",
+          "spell": "anqing",
+          "name": "安庆市"
+        },
+        {
+          "value": "210300",
+          "parent": "210000",
+          "spell": "anshan",
+          "name": "鞍山市"
+        },
+        {
+          "value": "520400",
+          "parent": "520000",
+          "spell": "anshun",
+          "name": "安顺市"
+        },
+        {
+          "value": "410500",
+          "parent": "410000",
+          "spell": "anyang",
+          "name": "安阳市"
+        }
+      ],
+      "B": [
+        {
+          "value": "110100",
+          "parent": "110000",
+          "spell": "beijing",
+          "name": "北京市"
+        },
+        {
+          "value": "220800",
+          "parent": "220000",
+          "spell": "baicheng",
+          "name": "白城市"
+        },
+        {
+          "value": "451000",
+          "parent": "450000",
+          "spell": "baise",
+          "name": "百色市"
+        },
+        {
+          "value": "220600",
+          "parent": "220000",
+          "spell": "baishan",
+          "name": "白山市"
+        },
+        {
+          "value": "620400",
+          "parent": "620000",
+          "spell": "baiyin",
+          "name": "白银市"
+        },
+        {
+          "value": "340300",
+          "parent": "340000",
+          "spell": "bangbu",
+          "name": "蚌埠市"
+        },
+        {
+          "value": "130600",
+          "parent": "130000",
+          "spell": "baoding",
+          "name": "保定市"
+        },
+        {
+          "value": "610300",
+          "parent": "610000",
+          "spell": "baoji",
+          "name": "宝鸡市"
+        },
+        {
+          "value": "530500",
+          "parent": "530000",
+          "spell": "baoshan",
+          "name": "保山市"
+        },
+        {
+          "value": "150200",
+          "parent": "150000",
+          "spell": "baotou",
+          "name": "包头市"
+        },
+        {
+          "value": "150800",
+          "parent": "150000",
+          "spell": "bayannaoer",
+          "name": "巴彦淖尔市"
+        },
+        {
+          "value": "652800",
+          "parent": "650000",
+          "spell": "bayinguoleng",
+          "name": "巴音郭楞"
+        },
+        {
+          "value": "511900",
+          "parent": "510000",
+          "spell": "bazhong",
+          "name": "巴中市"
+        },
+        {
+          "value": "450500",
+          "parent": "450000",
+          "spell": "beihai",
+          "name": "北海市"
+        },
+        {
+          "value": "210500",
+          "parent": "210000",
+          "spell": "benxi",
+          "name": "本溪市"
+        },
+        {
+          "value": "520500",
+          "parent": "520000",
+          "spell": "bijie",
+          "name": "毕节"
+        },
+        {
+          "value": "371600",
+          "parent": "370000",
+          "spell": "binzhou",
+          "name": "滨州市"
+        },
+        {
+          "value": "652700",
+          "parent": "650000",
+          "spell": "boertala",
+          "name": "博尔塔拉"
+        },
+        {
+          "value": "341600",
+          "parent": "340000",
+          "spell": "bozhou",
+          "name": "亳州市"
+        },
+        {
+          "value": "321023",
+          "parent": "321000",
+          "spell": "baoying",
+          "name": "宝应"
+        }
+      ],
+      "C": [
+        {
+          "value": "500100",
+          "parent": "500000",
+          "spell": "chongqing",
+          "name": "重庆市"
+        },
+        {
+          "value": "220100",
+          "parent": "220000",
+          "spell": "changchun",
+          "name": "长春市"
+        },
+        {
+          "value": "430100",
+          "parent": "430000",
+          "spell": "changsha",
+          "name": "长沙市"
+        },
+        {
+          "value": "320400",
+          "parent": "320000",
+          "spell": "changzhou",
+          "name": "常州市"
+        },
+        {
+          "value": "510100",
+          "parent": "510000",
+          "spell": "chengdu",
+          "name": "成都市"
+        },
+        {
+          "value": "130900",
+          "parent": "130000",
+          "spell": "cangzhou",
+          "name": "沧州市"
+        },
+        {
+          "value": "430700",
+          "parent": "430000",
+          "spell": "changde",
+          "name": "常德市"
+        },
+        {
+          "value": "540300",
+          "parent": "540000",
+          "spell": "changdu",
+          "name": "昌都"
+        },
+        {
+          "value": "652300",
+          "parent": "650000",
+          "spell": "changji",
+          "name": "昌吉"
+        },
+        {
+          "value": "140400",
+          "parent": "140000",
+          "spell": "changzhi",
+          "name": "长治市"
+        },
+        {
+          "value": "341400",
+          "parent": "340000",
+          "spell": "chaohu",
+          "name": "巢湖市"
+        },
+        {
+          "value": "445100",
+          "parent": "440000",
+          "spell": "chaozhou",
+          "name": "潮州市"
+        },
+        {
+          "value": "130800",
+          "parent": "130000",
+          "spell": "chengde",
+          "name": "承德市"
+        },
+        {
+          "value": "431000",
+          "parent": "430000",
+          "spell": "chenzhou",
+          "name": "郴州市"
+        },
+        {
+          "value": "150400",
+          "parent": "150000",
+          "spell": "chifeng",
+          "name": "赤峰市"
+        },
+        {
+          "value": "341700",
+          "parent": "340000",
+          "spell": "chizhou",
+          "name": "池州市"
+        },
+        {
+          "value": "451400",
+          "parent": "450000",
+          "spell": "chongzuo",
+          "name": "崇左市"
+        },
+        {
+          "value": "532300",
+          "parent": "530000",
+          "spell": "chuxiong",
+          "name": "楚雄"
+        },
+        {
+          "value": "341100",
+          "parent": "340000",
+          "spell": "chuzhou",
+          "name": "滁州市"
+        }
+      ],
+      "D": [
+        {
+          "value": "210200",
+          "parent": "210000",
+          "spell": "dalian",
+          "name": "大连"
+        },
+        {
+          "value": "441900",
+          "parent": "440000",
+          "spell": "dongguan",
+          "name": "东莞"
+        },
+        {
+          "value": "532900",
+          "parent": "530000",
+          "spell": "dali",
+          "name": "大理市"
+        },
+        {
+          "value": "210600",
+          "parent": "210000",
+          "spell": "dandong",
+          "name": "丹东市"
+        },
+        {
+          "value": "230600",
+          "parent": "230000",
+          "spell": "daqing",
+          "name": "大庆市"
+        },
+        {
+          "value": "140200",
+          "parent": "140000",
+          "spell": "datong",
+          "name": "大同市"
+        },
+        {
+          "value": "232700",
+          "parent": "230000",
+          "spell": "daxinganling",
+          "name": "大兴安岭"
+        },
+        {
+          "value": "511700",
+          "parent": "510000",
+          "spell": "dazhou",
+          "name": "达州市"
+        },
+        {
+          "value": "533100",
+          "parent": "530000",
+          "spell": "dehong",
+          "name": "德宏"
+        },
+        {
+          "value": "510600",
+          "parent": "510000",
+          "spell": "deyang",
+          "name": "德阳"
+        },
+        {
+          "value": "371400",
+          "parent": "370000",
+          "spell": "dezhou",
+          "name": "德州市"
+        },
+        {
+          "value": "621100",
+          "parent": "620000",
+          "spell": "dingxi",
+          "name": "定西市"
+        },
+        {
+          "value": "533400",
+          "parent": "530000",
+          "spell": "diqing",
+          "name": "迪庆"
+        },
+        {
+          "value": "370500",
+          "parent": "370000",
+          "spell": "dongying",
+          "name": "东营"
+        }
+      ],
+      "E": [
+        {
+          "value": "150600",
+          "parent": "150000",
+          "spell": "eerduosi",
+          "name": "鄂尔多斯"
+        },
+        {
+          "value": "422800",
+          "parent": "420000",
+          "spell": "enshi",
+          "name": "恩施"
+        },
+        {
+          "value": "420700",
+          "parent": "420000",
+          "spell": "ezhou",
+          "name": "鄂州"
+        }
+      ],
+      "F": [
+        {
+          "value": "440600",
+          "parent": "440000",
+          "spell": "foshan",
+          "name": "佛山"
+        },
+        {
+          "value": "350100",
+          "parent": "350000",
+          "spell": "fuzhou",
+          "name": "福州"
+        },
+        {
+          "value": "450600",
+          "parent": "450000",
+          "spell": "fangchenggang",
+          "name": "防城港"
+        },
+        {
+          "value": "210400",
+          "parent": "210000",
+          "spell": "fushun",
+          "name": "抚顺"
+        },
+        {
+          "value": "210900",
+          "parent": "210000",
+          "name": "阜新"
+        },
+        {
+          "value": "341200",
+          "parent": "340000",
+          "spell": "fuyang",
+          "name": "阜阳"
+        },
+        {
+          "value": "361000",
+          "parent": "360000",
+          "spell": "fuzhou",
+          "name": "抚州"
+        }
+      ],
+      "G": [
+        {
+          "value": "440100",
+          "parent": "440000",
+          "spell": "guangzhou",
+          "name": "广州市"
+        },
+        {
+          "value": "520100",
+          "parent": "520000",
+          "spell": "guiyang",
+          "name": "贵阳"
+        },
+        {
+          "value": "623000",
+          "parent": "620000",
+          "spell": "gannan",
+          "name": "甘南"
+        },
+        {
+          "value": "360700",
+          "parent": "360000",
+          "spell": "ganzhou",
+          "name": "赣州"
+        },
+        {
+          "value": "513300",
+          "parent": "510000",
+          "spell": "ganzi",
+          "name": "甘孜"
+        },
+        {
+          "value": "511600",
+          "parent": "510000",
+          "spell": "guangan",
+          "name": "广安"
+        },
+        {
+          "value": "510800",
+          "parent": "510000",
+          "spell": "guangyuan",
+          "name": "广元"
+        },
+        {
+          "value": "450800",
+          "parent": "450000",
+          "spell": "guigang",
+          "name": "贵港"
+        },
+        {
+          "value": "450300",
+          "parent": "450000",
+          "spell": "guilin",
+          "name": "桂林"
+        },
+        {
+          "value": "632600",
+          "parent": "630000",
+          "spell": "guoluo",
+          "name": "果洛"
+        },
+        {
+          "value": "640400",
+          "parent": "640000",
+          "spell": "guyuan",
+          "name": "固原"
+        }
+      ],
+      "H": [
+        {
+          "value": "230100",
+          "parent": "230000",
+          "spell": "haerbin",
+          "name": "哈尔滨"
+        },
+        {
+          "value": "460100",
+          "parent": "460000",
+          "spell": "haikou",
+          "name": "海口"
+        },
+        {
+          "value": "130400",
+          "parent": "130000",
+          "spell": "handan",
+          "name": "邯郸"
+        },
+        {
+          "value": "330100",
+          "parent": "330000",
+          "spell": "hangzhou",
+          "name": "杭州"
+        },
+        {
+          "value": "340100",
+          "parent": "340000",
+          "spell": "hefei",
+          "name": "合肥"
+        },
+        {
+          "value": "441300",
+          "parent": "440000",
+          "spell": "huizhou",
+          "name": "惠州"
+        },
+        {
+          "value": "632200",
+          "parent": "630000",
+          "spell": "haibei",
+          "name": "海北"
+        },
+        {
+          "value": "630200",
+          "parent": "630000",
+          "spell": "haidong",
+          "name": "海东"
+        },
+        {
+          "value": "632500",
+          "parent": "630000",
+          "spell": "hainan",
+          "name": "海南"
+        },
+        {
+          "value": "632800",
+          "parent": "630000",
+          "spell": "haixi",
+          "name": "海西"
+        },
+        {
+          "value": "650500",
+          "parent": "650000",
+          "spell": "hami",
+          "name": "哈密"
+        },
+        {
+          "value": "610700",
+          "parent": "610000",
+          "spell": "hanzhong",
+          "name": "汉中"
+        },
+        {
+          "value": "410600",
+          "parent": "410000",
+          "spell": "hebi",
+          "name": "鹤壁"
+        },
+        {
+          "value": "451200",
+          "parent": "450000",
+          "spell": "hechi",
+          "name": "河池"
+        },
+        {
+          "value": "230400",
+          "parent": "230000",
+          "spell": "hegang",
+          "name": "鹤岗"
+        },
+        {
+          "value": "231100",
+          "parent": "230000",
+          "spell": "heihe",
+          "name": "黑河"
+        },
+        {
+          "value": "131100",
+          "parent": "130000",
+          "spell": "hengshui",
+          "name": "衡水"
+        },
+        {
+          "value": "430400",
+          "parent": "430000",
+          "spell": "hengyang",
+          "name": "衡阳"
+        },
+        {
+          "value": "653200",
+          "parent": "650000",
+          "spell": "hetiandi",
+          "name": "和田地"
+        },
+        {
+          "value": "441600",
+          "parent": "440000",
+          "spell": "heyuan",
+          "name": "河源"
+        },
+        {
+          "value": "451100",
+          "parent": "450000",
+          "spell": "hezhou",
+          "name": "贺州"
+        },
+        {
+          "value": "532500",
+          "parent": "530000",
+          "spell": "honghe",
+          "name": "红河"
+        },
+        {
+          "value": "320800",
+          "parent": "320000",
+          "spell": "huaian",
+          "name": "淮安"
+        },
+        {
+          "value": "340600",
+          "parent": "340000",
+          "spell": "huaibei",
+          "name": "淮北"
+        },
+        {
+          "value": "431200",
+          "parent": "430000",
+          "spell": "huaihua",
+          "name": "怀化"
+        },
+        {
+          "value": "340400",
+          "parent": "340000",
+          "spell": "huainan",
+          "name": "淮南"
+        },
+        {
+          "value": "421100",
+          "parent": "420000",
+          "spell": "huanggang",
+          "name": "黄冈"
+        },
+        {
+          "value": "632300",
+          "parent": "630000",
+          "spell": "huangnan",
+          "name": "黄南"
+        },
+        {
+          "value": "341000",
+          "parent": "340000",
+          "spell": "huangshan",
+          "name": "黄山"
+        },
+        {
+          "value": "420200",
+          "parent": "420000",
+          "spell": "huangshi",
+          "name": "黄石"
+        },
+        {
+          "value": "150100",
+          "parent": "150000",
+          "spell": "huhehaote",
+          "name": "呼和浩特"
+        },
+        {
+          "value": "211400",
+          "parent": "210000",
+          "spell": "huludao",
+          "name": "葫芦岛"
+        },
+        {
+          "value": "150700",
+          "parent": "150000",
+          "spell": "hulunbeier",
+          "name": "呼伦贝尔"
+        },
+        {
+          "value": "330500",
+          "parent": "330000",
+          "spell": "huzhou",
+          "name": "湖州"
+        }
+      ],
+      "J": [
+        {
+          "value": "410800",
+          "parent": "410000",
+          "spell": "jiaozuo",
+          "name": "焦作"
+        },
+        {
+          "value": "330400",
+          "parent": "330000",
+          "spell": "jiaxing",
+          "name": "嘉兴"
+        },
+        {
+          "value": "220200",
+          "parent": "220000",
+          "spell": "jilin",
+          "name": "吉林"
+        },
+        {
+          "value": "370100",
+          "parent": "370000",
+          "spell": "jinan",
+          "name": "济南"
+        },
+        {
+          "value": "230800",
+          "parent": "230000",
+          "spell": "jiamusi",
+          "name": "佳木斯"
+        },
+        {
+          "value": "440700",
+          "parent": "440000",
+          "spell": "jiangmen",
+          "name": "江门"
+        },
+        {
+          "value": "620200",
+          "parent": "620000",
+          "spell": "jiayuguan",
+          "name": "嘉峪关"
+        },
+        {
+          "value": "445200",
+          "parent": "440000",
+          "spell": "jieyang",
+          "name": "揭阳"
+        },
+        {
+          "value": "620300",
+          "parent": "620000",
+          "spell": "jinchang",
+          "name": "金昌"
+        },
+        {
+          "value": "140500",
+          "parent": "140000",
+          "spell": "jincheng",
+          "name": "晋城"
+        },
+        {
+          "value": "360200",
+          "parent": "360000",
+          "spell": "jingdezhen",
+          "name": "景德镇"
+        },
+        {
+          "value": "420800",
+          "parent": "420000",
+          "spell": "jingmen",
+          "name": "荆门"
+        },
+        {
+          "value": "421000",
+          "parent": "420000",
+          "spell": "jingzhou",
+          "name": "荆州"
+        },
+        {
+          "value": 167,
+          "spell": "jinhua",
+          "name": "金华"
+        },
+        {
+          "value": "330700",
+          "parent": "330000",
+          "spell": "jining",
+          "name": "济宁"
+        },
+        {
+          "value": "140700",
+          "parent": "140000",
+          "spell": "jinzhong",
+          "name": "晋中"
+        },
+        {
+          "value": "210700",
+          "parent": "210000",
+          "spell": "jinzhou",
+          "name": "锦州"
+        },
+        {
+          "value": "360400",
+          "parent": "360000",
+          "spell": "jiujiang",
+          "name": "九江"
+        },
+        {
+          "value": "620900",
+          "parent": "620000",
+          "spell": "jiuquan",
+          "name": "酒泉"
+        },
+        {
+          "value": "230300",
+          "parent": "230000",
+          "spell": "jixi",
+          "name": "鸡西"
+        },
+        {
+          "value": "360800",
+          "parent": "360000",
+          "spell": "jian",
+          "name": "吉安"
+        }
+      ],
+      "K": [
+        {
+          "value": "530100",
+          "parent": "530000",
+          "spell": "kunming",
+          "name": "昆明"
+        },
+        {
+          "value": "410200",
+          "parent": "410000",
+          "spell": "kaifeng",
+          "name": "开封"
+        },
+        {
+          "value": "653100",
+          "parent": "650000",
+          "spell": "kashidi",
+          "name": "喀什地"
+        },
+        {
+          "value": "650200",
+          "parent": "650000",
+          "spell": "kelamayi",
+          "name": "克拉玛依"
+        },
+        {
+          "value": "653000",
+          "parent": "650000",
+          "spell": "kezile",
+          "name": "克孜勒"
+        }
+      ],
+      "L": [
+        {
+          "value": "620100",
+          "parent": "620000",
+          "spell": "lanzhou",
+          "name": "兰州"
+        },
+        {
+          "value": "450200",
+          "parent": "450000",
+          "spell": "liuzhou",
+          "name": "柳州"
+        },
+        {
+          "value": "410300",
+          "parent": "410000",
+          "spell": "luoyang",
+          "name": "洛阳"
+        },
+        {
+          "value": "451300",
+          "parent": "450000",
+          "spell": "laibin",
+          "name": "来宾"
+        },
+        {
+          "value": "371200",
+          "parent": "370000",
+          "spell": "laiwu",
+          "name": "莱芜"
+        },
+        {
+          "value": "131000",
+          "parent": "130000",
+          "spell": "langfang",
+          "name": "廊坊"
+        },
+        {
+          "value": "540100",
+          "parent": "540000",
+          "spell": "lasa",
+          "name": "拉萨"
+        },
+        {
+          "value": "511100",
+          "parent": "510000",
+          "spell": "leshan",
+          "name": "乐山"
+        },
+        {
+          "value": "513400",
+          "parent": "510000",
+          "spell": "liangshan",
+          "name": "凉山"
+        },
+        {
+          "value": "320700",
+          "parent": "320000",
+          "spell": "lianyungang",
+          "name": "连云港"
+        },
+        {
+          "value": "371500",
+          "parent": "370000",
+          "spell": "liaocheng",
+          "name": "聊城"
+        },
+        {
+          "value": "211000",
+          "parent": "210000",
+          "spell": "liaoyang",
+          "name": "辽阳"
+        },
+        {
+          "value": "220400",
+          "parent": "220000",
+          "spell": "liaoyuan",
+          "name": "辽源"
+        },
+        {
+          "value": "530700",
+          "parent": "530000",
+          "spell": "lijiang",
+          "name": "丽江"
+        },
+        {
+          "value": "530900",
+          "parent": "530000",
+          "spell": "lincang",
+          "name": "临沧"
+        },
+        {
+          "value": "141000",
+          "parent": "140000",
+          "spell": "linfen",
+          "name": "临汾"
+        },
+        {
+          "value": "622900",
+          "parent": "620000",
+          "spell": "linxia",
+          "name": "临夏"
+        },
+        {
+          "value": "371300",
+          "parent": "370000",
+          "spell": "linyi",
+          "name": "临沂"
+        },
+        {
+          "value": "540400",
+          "parent": "540000",
+          "spell": "linzhi",
+          "name": "林芝"
+        },
+        {
+          "value": "331100",
+          "parent": "330000",
+          "spell": "lishui",
+          "name": "丽水"
+        },
+        {
+          "value": "341500",
+          "parent": "340000",
+          "spell": "liuan",
+          "name": "六安"
+        },
+        {
+          "value": "520200",
+          "parent": "520000",
+          "spell": "liupanshui",
+          "name": "六盘水"
+        },
+        {
+          "value": "621200",
+          "parent": "620000",
+          "spell": "longnan",
+          "name": "陇南"
+        },
+        {
+          "value": "350800",
+          "parent": "350000",
+          "spell": "longyan",
+          "name": "龙岩"
+        },
+        {
+          "value": "431300",
+          "parent": "430000",
+          "spell": "loudi",
+          "name": "娄底"
+        },
+        {
+          "value": "411100",
+          "parent": "410000",
+          "spell": "luohe",
+          "name": "漯河"
+        },
+        {
+          "value": "510500",
+          "parent": "510000",
+          "spell": "luzhou",
+          "name": "泸州"
+        },
+        {
+          "value": "141100",
+          "parent": "140000",
+          "spell": "lvliang",
+          "name": "吕梁"
+        }
+      ],
+      "M": [
+        {
+          "value": "340500",
+          "parent": "340000",
+          "spell": "maanshan",
+          "name": "马鞍山"
+        },
+        {
+          "value": "440900",
+          "parent": "440000",
+          "spell": "maoming",
+          "name": "茂名"
+        },
+        {
+          "value": "511400",
+          "parent": "510000",
+          "spell": "meishan",
+          "name": "眉山"
+        },
+        {
+          "value": "441400",
+          "parent": "440000",
+          "spell": "meizhou",
+          "name": "梅州"
+        },
+        {
+          "value": "510700",
+          "parent": "510000",
+          "spell": "mianyang",
+          "name": "绵阳"
+        },
+        {
+          "value": "231000",
+          "parent": "230000",
+          "spell": "mudanjiang",
+          "name": "牡丹江"
+        }
+      ],
+      "N": [
+        {
+          "value": "360100",
+          "parent": "360000",
+          "spell": "nanchang",
+          "name": "南昌"
+        },
+        {
+          "value": "320100",
+          "parent": "320000",
+          "spell": "nanjing",
+          "name": "南京"
+        },
+        {
+          "value": "450100",
+          "parent": "450000",
+          "spell": "nanning",
+          "name": "南宁"
+        },
+        {
+          "value": "320600",
+          "parent": "320000",
+          "spell": "nantong",
+          "name": "南通"
+        },
+        {
+          "value": "330200",
+          "parent": "330000",
+          "spell": "ningbo",
+          "name": "宁波"
+        },
+        {
+          "value": "511300",
+          "parent": "510000",
+          "spell": "nanchong",
+          "name": "南充"
+        },
+        {
+          "value": "350700",
+          "parent": "350000",
+          "spell": "nanping",
+          "name": "南平"
+        },
+        {
+          "value": "411300",
+          "parent": "410000",
+          "spell": "nanyang",
+          "name": "南阳"
+        },
+        {
+          "value": "542400",
+          "parent": "540000",
+          "spell": "naqu",
+          "name": "那曲"
+        },
+        {
+          "value": "511000",
+          "parent": "510000",
+          "spell": "neijiang",
+          "name": "内江"
+        },
+        {
+          "value": "350900",
+          "parent": "350000",
+          "spell": "ningde",
+          "name": "宁德"
+        },
+        {
+          "value": "533300",
+          "parent": "530000",
+          "spell": "nujiang",
+          "name": "怒江"
+        }
+      ],
+      "P": [
+        {
+          "value": "211100",
+          "parent": "210000",
+          "spell": "panjin",
+          "name": "盘锦"
+        },
+        {
+          "value": "510400",
+          "parent": "510000",
+          "spell": "panzhihua",
+          "name": "攀枝花"
+        },
+        {
+          "value": "410400",
+          "parent": "410000",
+          "spell": "pingdingshan",
+          "name": "平顶山"
+        },
+        {
+          "value": "620800",
+          "parent": "620000",
+          "spell": "pingliang",
+          "name": "平凉"
+        },
+        {
+          "value": "360300",
+          "parent": "360000",
+          "spell": "pingxiang",
+          "name": "萍乡"
+        },
+        {
+          "value": "350300",
+          "parent": "350000",
+          "spell": "putian",
+          "name": "莆田"
+        },
+        {
+          "value": "410900",
+          "parent": "410000",
+          "spell": "puyang",
+          "name": "濮阳"
+        }
+      ],
+      "Q": [
+        {
+          "value": "370200",
+          "parent": "370000",
+          "spell": "qingdao",
+          "name": "青岛"
+        },
+        {
+          "value": "350500",
+          "parent": "350000",
+          "spell": "quanzhou",
+          "name": "泉州"
+        },
+        {
+          "value": "522600",
+          "parent": "520000",
+          "spell": "qiandong",
+          "name": "黔东"
+        },
+        {
+          "value": "522700",
+          "parent": "520000",
+          "spell": "qiannan",
+          "name": "黔南"
+        },
+        {
+          "value": "621000",
+          "parent": "620000",
+          "spell": "qingyang",
+          "name": "庆阳"
+        },
+        {
+          "value": "441800",
+          "parent": "440000",
+          "spell": "qingyuan",
+          "name": "清远"
+        },
+        {
+          "value": "130300",
+          "parent": "130000",
+          "spell": "qinhuangdao",
+          "name": "秦皇岛"
+        },
+        {
+          "value": "450700",
+          "parent": "450000",
+          "spell": "qinzhou",
+          "name": "钦州"
+        },
+        {
+          "value": "230200",
+          "parent": "230000",
+          "spell": "qiqihaer",
+          "name": "齐齐哈尔"
+        },
+        {
+          "value": "230900",
+          "parent": "230000",
+          "spell": "qitaihe",
+          "name": "七台河"
+        },
+        {
+          "value": "530300",
+          "parent": "530000",
+          "spell": "qujing",
+          "name": "曲靖"
+        },
+        {
+          "value": "330800",
+          "parent": "330000",
+          "spell": "quzhou",
+          "name": "衢州"
+        }
+      ],
+      "R": [
+        {
+          "value": "540200",
+          "parent": "540000",
+          "spell": "rikaze",
+          "name": "日喀则"
+        },
+        {
+          "value": "371100",
+          "parent": "370000",
+          "spell": "rizhao",
+          "name": "日照"
+        }
+      ],
+      "S": [
+        {
+          "value": "310100",
+          "parent": "310000",
+          "spell": "shanghai",
+          "name": "上海"
+        },
+        {
+          "value": "210100",
+          "parent": "210000",
+          "spell": "shenyang",
+          "name": "沈阳"
+        },
+        {
+          "value": "440300",
+          "parent": "440000",
+          "spell": "shenzhen",
+          "name": "深圳"
+        },
+        {
+          "value": "130100",
+          "parent": "130000",
+          "spell": "shijiazhuang",
+          "name": "石家庄"
+        },
+        {
+          "value": "320500",
+          "parent": "320000",
+          "spell": "suzhou",
+          "name": "苏州"
+        },
+        {
+          "value": "411200",
+          "parent": "410000",
+          "spell": "sanmenxia",
+          "name": "三门峡"
+        },
+        {
+          "value": "350400",
+          "parent": "350000",
+          "spell": "sanming",
+          "name": "三明"
+        },
+        {
+          "value": "460200",
+          "parent": "460000",
+          "spell": "sanya",
+          "name": "三亚"
+        },
+        {
+          "value": "611000",
+          "parent": "610000",
+          "spell": "shangluo",
+          "name": "商洛"
+        },
+        {
+          "value": "411400",
+          "parent": "410000",
+          "spell": "shangqiu",
+          "name": "商丘"
+        },
+        {
+          "value": "361100",
+          "parent": "360000",
+          "spell": "shangrao",
+          "name": "上饶"
+        },
+        {
+          "value": "540500",
+          "parent": "540000",
+          "spell": "shannan",
+          "name": "山南"
+        },
+        {
+          "value": "440500",
+          "parent": "440000",
+          "spell": "shantou",
+          "name": "汕头"
+        },
+        {
+          "value": "441500",
+          "parent": "440000",
+          "spell": "shanwei",
+          "name": "汕尾"
+        },
+        {
+          "value": "440200",
+          "parent": "440000",
+          "spell": "shaoguan",
+          "name": "韶关"
+        },
+        {
+          "value": "330600",
+          "parent": "330000",
+          "spell": "shaoxing",
+          "name": "绍兴"
+        },
+        {
+          "value": "430500",
+          "parent": "430000",
+          "spell": "shaoyang",
+          "name": "邵阳"
+        },
+        {
+          "value": "420300",
+          "parent": "420000",
+          "spell": "shiyan",
+          "name": "十堰"
+        },
+        {
+          "value": "640200",
+          "parent": "640000",
+          "spell": "shizuishan",
+          "name": "石嘴山"
+        },
+        {
+          "value": "230500",
+          "parent": "230000",
+          "spell": "shuangyashan",
+          "name": "双鸭山"
+        },
+        {
+          "value": "140600",
+          "parent": "140000",
+          "spell": "shuozhou",
+          "name": "朔州"
+        },
+        {
+          "value": "220300",
+          "parent": "220000",
+          "spell": "siping",
+          "name": "四平"
+        },
+        {
+          "value": "220700",
+          "parent": "220000",
+          "spell": "songyuan",
+          "name": "松原"
+        },
+        {
+          "value": "231200",
+          "parent": "230000",
+          "spell": "suihua",
+          "name": "绥化"
+        },
+        {
+          "value": "510900",
+          "parent": "510000",
+          "spell": "suining",
+          "name": "遂宁"
+        },
+        {
+          "value": "421300",
+          "parent": "420000",
+          "spell": "suizhou",
+          "name": "随州"
+        },
+        {
+          "value": "321300",
+          "parent": "320000",
+          "spell": "suqian",
+          "name": "宿迁"
+        },
+        {
+          "value": "341300",
+          "parent": "340000",
+          "spell": "suzhou",
+          "name": "宿州"
+        }
+      ],
+      "T": [
+        {
+          "value": "120100",
+          "parent": "120000",
+          "spell": "tianjin",
+          "name": "天津"
+        },
+        {
+          "value": "331000",
+          "parent": "330000",
+          "spell": "taizhou",
+          "name": "台州"
+        },
+        {
+          "value": "130200",
+          "parent": "130000",
+          "spell": "tangshan",
+          "name": "唐山"
+        },
+        {
+          "value": "654200",
+          "parent": "650000",
+          "spell": "tachengdi",
+          "name": "塔城地"
+        },
+        {
+          "value": "370900",
+          "parent": "370000",
+          "spell": "taian",
+          "name": "泰安"
+        },
+        {
+          "value": "140100",
+          "parent": "140000",
+          "spell": "taiyuan",
+          "name": "太原"
+        },
+        {
+          "value": "321200",
+          "parent": "320000",
+          "spell": "taizhou",
+          "name": "泰州"
+        },
+        {
+          "value": "620500",
+          "parent": "620000",
+          "spell": "tianshui",
+          "name": "天水"
+        },
+        {
+          "value": "211200",
+          "parent": "210000",
+          "spell": "tieling",
+          "name": "铁岭"
+        },
+        {
+          "value": "610200",
+          "parent": "610000",
+          "spell": "tongchuan",
+          "name": "铜川"
+        },
+        {
+          "value": "220500",
+          "parent": "220000",
+          "spell": "tonghua",
+          "name": "通化"
+        },
+        {
+          "value": "150500",
+          "parent": "150000",
+          "spell": "tongliao",
+          "name": "通辽"
+        },
+        {
+          "value": "340700",
+          "parent": "340000",
+          "spell": "tongling",
+          "name": "铜陵"
+        },
+        {
+          "value": "520600",
+          "parent": "520000",
+          "spell": "tongren",
+          "name": "铜仁"
+        }
+      ],
+      "W": [
+        {
+          "value": "370700",
+          "parent": "370000",
+          "spell": "weifang",
+          "name": "潍坊"
+        },
+        {
+          "value": "371000",
+          "parent": "370000",
+          "spell": "weihai",
+          "name": "威海"
+        },
+        {
+          "value": "420100",
+          "parent": "420000",
+          "spell": "wuhan",
+          "name": "武汉"
+        },
+        {
+          "value": "320200",
+          "parent": "320000",
+          "spell": "wuxi",
+          "name": "无锡"
+        },
+        {
+          "value": "610500",
+          "parent": "610000",
+          "spell": "weinan",
+          "name": "渭南"
+        },
+        {
+          "value": "532600",
+          "parent": "530000",
+          "spell": "wenshan",
+          "name": "文山"
+        },
+        {
+          "value": "330300",
+          "parent": "330000",
+          "spell": "wenzhou",
+          "name": "温州"
+        },
+        {
+          "value": "150300",
+          "parent": "150000",
+          "spell": "wuhai",
+          "name": "乌海"
+        },
+        {
+          "value": "150900",
+          "parent": "150000",
+          "spell": "wulanchabu",
+          "name": "乌兰察布"
+        },
+        {
+          "value": "650100",
+          "parent": "650000",
+          "spell": "wulumuqi",
+          "name": "乌鲁木齐"
+        },
+        {
+          "value": "620600",
+          "parent": "620000",
+          "spell": "wuwei",
+          "name": "武威"
+        },
+        {
+          "value": "640300",
+          "parent": "640000",
+          "spell": "wuzhong",
+          "name": "吴忠"
+        },
+        {
+          "value": "450400",
+          "parent": "450000",
+          "spell": "wuzhou",
+          "name": "梧州"
+        },
+        {
+          "value": "340200",
+          "parent": "340000",
+          "spell": "wuhu",
+          "name": "芜湖"
+        }
+      ],
+      "X": [
+        {
+          "value": "350200",
+          "parent": "350000",
+          "spell": "xiamen",
+          "name": "厦门"
+        },
+        {
+          "value": "610100",
+          "parent": "610000",
+          "spell": "xian",
+          "name": "西安"
+        },
+        {
+          "value": "411000",
+          "parent": "410000",
+          "spell": "xuchang",
+          "name": "许昌"
+        },
+        {
+          "value": "320300",
+          "parent": "320000",
+          "spell": "xuzhou",
+          "name": "徐州"
+        },
+        {
+          "value": "430300",
+          "parent": "430000",
+          "spell": "xiangtan",
+          "name": "湘潭"
+        },
+        {
+          "value": "433100",
+          "parent": "430000",
+          "spell": "xiangxi",
+          "name": "湘西"
+        },
+        {
+          "value": "421200",
+          "parent": "420000",
+          "spell": "xianning",
+          "name": "咸宁"
+        },
+        {
+          "value": "610400",
+          "parent": "610000",
+          "spell": "xianyang",
+          "name": "咸阳"
+        },
+        {
+          "value": "420900",
+          "parent": "420000",
+          "spell": "xiaogan",
+          "name": "孝感"
+        },
+        {
+          "value": "152500",
+          "parent": "150000",
+          "spell": "xilinguolemeng",
+          "name": "锡林郭勒盟"
+        },
+        {
+          "value": "152200",
+          "parent": "150000",
+          "spell": "xinganmeng",
+          "name": "兴安盟"
+        },
+        {
+          "value": "130500",
+          "parent": "130000",
+          "spell": "xingtai",
+          "name": "邢台"
+        },
+        {
+          "value": "630100",
+          "parent": "630000",
+          "spell": "xining",
+          "name": "西宁"
+        },
+        {
+          "value": "410700",
+          "parent": "410000",
+          "spell": "xinxiang",
+          "name": "新乡"
+        },
+        {
+          "value": "411500",
+          "parent": "410000",
+          "spell": "xinyang",
+          "name": "信阳"
+        },
+        {
+          "value": "360500",
+          "parent": "360000",
+          "spell": "xinyu",
+          "name": "新余"
+        },
+        {
+          "value": "140900",
+          "parent": "140000",
+          "spell": "xinzhou",
+          "name": "忻州"
+        },
+        {
+          "value": "532800",
+          "parent": "530000",
+          "spell": "xishuangbanna",
+          "name": "西双版纳"
+        },
+        {
+          "value": "341800",
+          "parent": "340000",
+          "spell": "xuancheng",
+          "name": "宣城"
+        }
+      ],
+      "Y": [
+        {
+          "value": "321000",
+          "parent": "320000",
+          "spell": "yangzhou",
+          "name": "扬州"
+        },
+        {
+          "value": "370600",
+          "parent": "370000",
+          "spell": "yantai",
+          "name": "烟台"
+        },
+        {
+          "value": "511800",
+          "parent": "510000",
+          "spell": "yaan",
+          "name": "雅安"
+        },
+        {
+          "value": "610600",
+          "parent": "610000",
+          "spell": "yanan",
+          "name": "延安"
+        },
+        {
+          "value": "222400",
+          "parent": "220000",
+          "spell": "yanbian",
+          "name": "延边"
+        },
+        {
+          "value": "320900",
+          "parent": "320000",
+          "spell": "yancheng",
+          "name": "盐城"
+        },
+        {
+          "value": "441700",
+          "parent": "440000",
+          "spell": "yangjiang",
+          "name": "阳江"
+        },
+        {
+          "value": "140300",
+          "parent": "140000",
+          "spell": "yangquan",
+          "name": "阳泉"
+        },
+        {
+          "value": "511500",
+          "parent": "510000",
+          "spell": "yibin",
+          "name": "宜宾"
+        },
+        {
+          "value": "420500",
+          "parent": "420000",
+          "spell": "yichang",
+          "name": "宜昌"
+        },
+        {
+          "value": "230700",
+          "parent": "230000",
+          "spell": "yichun",
+          "name": "伊春"
+        },
+        {
+          "value": "360900",
+          "parent": "360000",
+          "spell": "yichun",
+          "name": "宜春"
+        },
+        {
+          "value": "654000",
+          "parent": "650000",
+          "spell": "yilihasake",
+          "name": "伊犁哈萨克"
+        },
+        {
+          "value": "640100",
+          "parent": "640000",
+          "spell": "yinchuan",
+          "name": "银川"
+        },
+        {
+          "value": "210800",
+          "parent": "210000",
+          "spell": "yingkou",
+          "name": "营口"
+        },
+        {
+          "value": "360600",
+          "parent": "360000",
+          "spell": "yingtan",
+          "name": "鹰潭"
+        },
+        {
+          "value": "430900",
+          "parent": "430000",
+          "spell": "yiyang",
+          "name": "益阳"
+        },
+        {
+          "value": "431100",
+          "parent": "430000",
+          "spell": "yongzhou",
+          "name": "永州"
+        },
+        {
+          "value": "430600",
+          "parent": "430000",
+          "spell": "yueyang",
+          "name": "岳阳"
+        },
+        {
+          "value": "450900",
+          "parent": "450000",
+          "spell": "yulin",
+          "name": "玉林"
+        },
+        {
+          "value": "610800",
+          "parent": "610000",
+          "spell": "yulin",
+          "name": "榆林"
+        },
+        {
+          "value": "140800",
+          "parent": "140000",
+          "spell": "yuncheng",
+          "name": "运城"
+        },
+        {
+          "value": "445300",
+          "parent": "440000",
+          "spell": "yunfu",
+          "name": "云浮"
+        },
+        {
+          "value": "632700",
+          "parent": "630000",
+          "spell": "yushu",
+          "name": "玉树"
+        },
+        {
+          "value": "530400",
+          "parent": "530000",
+          "spell": "yuxi",
+          "name": "玉溪"
+        }
+      ],
+      "Z": [
+        {
+          "value": "350600",
+          "parent": "350000",
+          "spell": "zhangzhou",
+          "name": "漳州"
+        },
+        {
+          "value": "410100",
+          "parent": "410000",
+          "spell": "zhengzhou",
+          "name": "郑州"
+        },
+        {
+          "value": "442000",
+          "parent": "440000",
+          "spell": "zhongshan",
+          "name": "中山"
+        },
+        {
+          "value": "440400",
+          "parent": "440000",
+          "spell": "zhuhai",
+          "name": "珠海"
+        },
+        {
+          "value": "370400",
+          "parent": "370000",
+          "spell": "zaozhuang",
+          "name": "枣庄"
+        },
+        {
+          "value": "430800",
+          "parent": "430000",
+          "spell": "zhangjiajie",
+          "name": "张家界"
+        },
+        {
+          "value": "130700",
+          "parent": "130000",
+          "spell": "zhangjiakou",
+          "name": "张家口"
+        },
+        {
+          "value": "620700",
+          "parent": "620000",
+          "spell": "zhangye",
+          "name": "张掖"
+        },
+        {
+          "value": "440800",
+          "parent": "440000",
+          "spell": "zhanjiang",
+          "name": "湛江"
+        },
+        {
+          "value": "441200",
+          "parent": "440000",
+          "spell": "zhaoqing",
+          "name": "肇庆"
+        },
+        {
+          "value": "530600",
+          "parent": "530000",
+          "spell": "zhaotong",
+          "name": "昭通"
+        },
+        {
+          "value": "321100",
+          "parent": "320000",
+          "spell": "zhenjiang",
+          "name": "镇江"
+        },
+        {
+          "value": "640500",
+          "parent": "640000",
+          "spell": "zhongwei",
+          "name": "中卫"
+        },
+        {
+          "value": "411600",
+          "parent": "410000",
+          "spell": "zhoukou",
+          "name": "周口"
+        },
+        {
+          "value": "330900",
+          "parent": "330000",
+          "spell": "zhoushan",
+          "name": "舟山"
+        },
+        {
+          "value": "411700",
+          "parent": "410000",
+          "spell": "zhumadian",
+          "name": "驻马店"
+        },
+        {
+          "value": "430200",
+          "parent": "430000",
+          "spell": "zhuzhou",
+          "name": "株洲"
+        },
+        {
+          "value": "370300",
+          "parent": "370000",
+          "spell": "zibo",
+          "name": "淄博"
+        },
+        {
+          "value": "510300",
+          "parent": "510000",
+          "spell": "zigong",
+          "name": "自贡"
+        },
+        {
+          "value": "512000",
+          "parent": "510000",
+          "spell": "ziyang",
+          "name": "资阳"
+        },
+        {
+          "value": "520300",
+          "parent": "520000",
+          "spell": "zunyi",
+          "name": "遵义"
+        }
+      ]
+    }
+  }
+}

@@ -25,6 +25,9 @@ export default {
     })
 
     const pageList = mockList.filter((item, index) => index < limit * page && index >= limit * (page - 1))
+    // var pageList = mockList.filter(function (item, index) {
+    //   return index < limit * page && index >= limit * (page - 1);
+    // });
 
     return {
       code: 20000,

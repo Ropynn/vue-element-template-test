@@ -14,6 +14,15 @@ service.interceptors.request.use(config => {
   if (store.getters.token) {
     config.headers['X-Token'] = getToken() // 让每个请求携带自定义token 请根据实际情况自行修改
   }
+  // 设置以 form 表单的形式提交参数，如果以 JSON 的形式提交表单，可忽略 axios默认是以JSON的形式提交的
+  if (config.method === 'post') {
+    // JSON 转换为 FormData
+    if (config.form) {
+      const formData = new FormData()
+      Object.keys(config.form).forEach(key => formData.append(key, config.form[key]))
+      config.data = formData
+    }
+  }
   return config
 }, error => {
   // Do something with request error

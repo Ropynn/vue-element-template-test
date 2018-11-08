@@ -44,6 +44,7 @@
         <el-button @click="onCancel">Cancel</el-button>
       </el-form-item>
     </el-form>
+    <p>{{value}}</p>
   </div>
 </template>
 
@@ -64,13 +65,30 @@ export default {
         type: [],
         resource: '',
         desc: ''
-      }
+      },
+      value: 1
     }
   },
   created() {
-    console.log(this.aa, 'num')
+    // this.test()
+    this.$root.bus.$on('a', letter => {
+      this.value = letter
+      console.log('12121')
+    })
+  },
+  mounted() {
+    // this.test()
+    this.$root.bus.$on('a', letter => {
+      this.value = letter
+      console.log('12121')
+    })
   },
   methods: {
+    test() {
+      this.$root.bus.$on('a', letter => {
+        this.value = letter
+      })
+    },
     onSubmit() {
       this.$message('submit!')
     },

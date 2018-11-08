@@ -23,7 +23,7 @@ export function removeUserList(data) {
 }
 
 /**
- * ??用户列表
+ * 批量删除用户列表
  */
 export function batchremoveUserList(data) {
   return request({

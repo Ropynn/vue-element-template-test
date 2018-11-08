@@ -146,7 +146,25 @@ export const constantRouterMap = [
         name: 'user',
         component: () => import('@/views/user'),
         meta: { title: 'user', icon: 'form' }
+      },
+      {
+        path: '/my-vuexData/directives',
+        name: 'directives',
+        component: () => import('@/views/directives/directives.vue'),
+        meta: { title: 'directives', icon: 'form' }
+      },
+      {
+        path: '/order/orderList',
+        name: 'orderList',
+        component: () => import('@/views/order/orderList.vue'),
+        meta: { title: '订单列表' }
       }
+      // {
+      //   path: '/City/City',
+      //   name: 'City',
+      //   component: () => import('@/views/City/City.vue'),
+      //   meta: { title: 'City', icon: 'form' }
+      // }
     ]
   },
 

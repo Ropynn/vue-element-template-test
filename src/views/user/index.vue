@@ -1,5 +1,6 @@
 <template>
   <div class="user">
+    <div @click="eve">默认按钮</div>
     <div class="search-input">
       <el-input placeholder="请输入名字" v-model="searchName" clearable style="marginRight: 20px; width: 150px"></el-input>
       <el-button type="primary" icon="el-icon-search" @click="handleSearch">搜索</el-button>
@@ -123,7 +124,8 @@ export default {
         addr: [
           { required: true, message: '请选择省市区', trigger: 'change' }
         ]
-      }
+      },
+      letters: '222'
     }
   },
   created() {
@@ -131,6 +133,10 @@ export default {
   },
 
   methods: {
+    // 传递
+    eve() {
+      console.log('1')
+    },
     // 编辑
     handleEdit(row) {
       this.isEdit = true
@@ -169,12 +175,6 @@ export default {
         this.uesrList = res.data
         console.log(this.uesrList)
         this.count = res.count
-      })
-    },
-    // 删除用户
-    removeUserList() {
-      removeUserList().then(res => {
-        console.log(res)
       })
     },
     // 批量删除

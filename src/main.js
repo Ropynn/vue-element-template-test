@@ -16,6 +16,12 @@ import '@/icons' // icon
 
 import './mock'
 import '@/permission' // permission control
+import './directive'
+import './filters'
+import VueDND from 'awe-dnd'
+
+Vue.use(VueDND)
+const bus = new Vue()
 
 Vue.use(ElementUI, { locale })
 
@@ -23,6 +29,9 @@ Vue.config.productionTip = false
 
 new Vue({
   el: '#app',
+  data: {
+    bus
+  },
   router,
   store,
   render: h => h(App)

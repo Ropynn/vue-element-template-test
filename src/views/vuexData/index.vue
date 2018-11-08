@@ -35,12 +35,18 @@ export default {
       },
       list: [],
       count: 0,
-      searchName: ''
+      searchName: '',
+      test: 0
     }
   },
   created() {
     this.num1 = this.aa
     this.getOrderList(this.listQuery)
+    if (this.test) {
+      console.log(1)
+    } else {
+      console.log(2)
+    }
   },
   methods: {
     // handleChange(value) {
