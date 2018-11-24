@@ -16,30 +16,34 @@ for (let i = 0; i < count; i++) {
 }
 
 export default {
+  /**
+   * 获取列表
+   * 要带参数 name, page, limt; name可以不填, page,limit有默认值。
+   * @param name, page, limit
+   * @return {{code: number, count: number, data: *[]}}
+   */
   getUserList: config => {
     const { name, page = 1, limit = 20 } = param2Obj(config.url)
-
     const mockList = List.filter(user => {
       if (name && user.name.indexOf(name) === -1) return false
       return true
     })
-
     const pageList = mockList.filter((item, index) => index < limit * page && index >= limit * (page - 1))
-    // var pageList = mockList.filter(function (item, index) {
-    //   return index < limit * page && index >= limit * (page - 1);
-    // });
-
     return {
       code: 20000,
       count: mockList.length,
       data: pageList
     }
   },
+  /**
+   * 增加用户
+   * @param name, addr, age, birth, sex
+   * @return {{code: number, data: {message: string}}}
+   */
   createUser: config => {
-    const { id, name, addr, age, birth, sex } = param2Obj(config.url)
-    console.log('66')
+    const { name, addr, age, birth, sex } = param2Obj(config.url)
     List.push({
-      id: id,
+      id: Mock.Random.guid(),
       name: name,
       addr: addr,
       age: age,
@@ -53,6 +57,11 @@ export default {
       }
     }
   },
+  /**
+   * 删除用户
+   * @param id
+   * @return {*}
+   */
   deleteUser: config => {
     const { id } = param2Obj(config.url)
     if (!id) {
@@ -70,6 +79,11 @@ export default {
       }
     }
   },
+  /**
+   * 批量删除
+   * @param config
+   * @return {{code: number, data: {message: string}}}
+   */
   batchremove: config => {
     let { ids } = param2Obj(config.url)
     ids = ids.split(',')
@@ -81,6 +95,11 @@ export default {
       }
     }
   },
+  /**
+   * 修改用户
+   * @param id, name, addr, age, birth, sex
+   * @return {{code: number, data: {message: string}}}
+   */
   updateUser: config => {
     const { id, name, addr, age, birth, sex } = param2Obj(config.url)
     const sex_num = parseInt(sex)
