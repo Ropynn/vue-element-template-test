@@ -1,10 +1,16 @@
 <template>
   <div class="color-list">
-    <div
-      class="color-item"
-      v-for="color in colors" v-dragging="{ item: color, list: colors, group: 'color' }"
-      :key="color"
-    >{{color}}</div>
+    <!--<grid-->
+      <!--:draggable="true"-->
+      <!--:sortable="true"-->
+      <!--:items="items"-->
+      <!--:height="100"-->
+      <!--:width="100"-->
+      <!--@sort="handleChange">-->
+      <!--<template slot="cell" scope="props">-->
+        <!--<div>{{props.item}}</div>-->
+      <!--</template>-->
+    <!--</grid>-->
   </div>
 </template>
 
@@ -13,17 +19,19 @@
     name: 'orderList',
     data() {
       return {
-        colors: ['Aquamarine', 'Hotpink', 'Gold', 'Crimson', 'Blueviolet', 'Lightblue', 'Cornflowerblue', 'Skyblue', 'Burlywood']
+        items: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'Burlywood']
+      }
+    },
+    methods: {
+      handleChange(e) {
+        console.log(e.items)
+        e.items.forEach(ele => {
+          console.log(ele.item)
+        })
       }
     },
     mounted() {
-      this.$dragging.$on('dragged', ({ value }) => {
-        // console.log(value.item)
-        console.log(value.list)
-      })
-      this.$dragging.$on('dragend', () => {
 
-      })
     }
   }
 </script>

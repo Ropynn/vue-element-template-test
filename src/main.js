@@ -20,6 +20,10 @@ import './directive'
 import './filters'
 import VueDND from 'awe-dnd'
 
+import Grid from 'vue-js-grid'
+
+Vue.use(Grid)
+
 Vue.use(VueDND)
 const bus = new Vue()
 

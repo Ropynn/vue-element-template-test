@@ -12,9 +12,11 @@ import './orderManage'
 import transactionAPI from './test'
 import testNumAPI from './number'
 import tableAPI from './user'
+import companyApi from './qichacha'
 
 Mock.mock(/\/transaction\/list/, 'get', transactionAPI.getList)
 Mock.mock(/\/list\/getList/, 'get', testNumAPI.listNum)
+Mock.mock(/\/list\/companyList/, 'get', companyApi.companyList)
 
 // 用户相关
 Mock.mock(/\/user\/listpage/, 'get', tableAPI.getUserList)

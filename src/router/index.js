@@ -158,6 +158,12 @@ export const constantRouterMap = [
         name: 'orderList',
         component: () => import('@/views/order/orderList.vue'),
         meta: { title: '订单列表' }
+      },
+      {
+        path: '/company/companyList',
+        name: 'companyList',
+        component: () => import('@/views/company'),
+        meta: { title: '公司列表' }
       }
       // {
       //   path: '/City/City',
